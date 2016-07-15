@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
                 }catch(Exception e){
                     m1st.setText("");
                     m2nd.setText("");
+                    mAns.setText("");
                 }
 
 
