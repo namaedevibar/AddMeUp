@@ -43,16 +43,16 @@ public class MainActivity extends AppCompatActivity {
                 input.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
 
                 try{
-                    if (m1st.getText().toString().matches("")){
-                        m1st.setText("");
-
-                    }
-                    else if ( m2nd.getText().toString().matches("")){
-
-                        m2nd.setText("");
-
-                    }
-                    else {
+//                    if (m1st.getText().toString().matches("")){
+//                        m1st.setText("");
+//
+//                    }
+//                    else if ( m2nd.getText().toString().matches("")){
+//
+//                        m2nd.setText("");
+//
+//                    }
+//                    else {
 
 
                         double first = Double.parseDouble(m1st.getText().toString());
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                         m2nd.setText("");
 
                         mAns.setText(total+"");
-                    }
+                   // }
 
 
                 }catch(Exception e){
